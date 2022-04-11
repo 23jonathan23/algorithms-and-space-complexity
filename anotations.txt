@@ -1,0 +1,31 @@
+- O que define um bom código?
+Pilares:
+	- Legibilidade (O quão seu codigo é de simples compreenção
+	para os demais engenheiros e facíl de manter(manutenção))
+	- Escalavel = Big O
+		- Tempo de execução
+		- Consumo de memória
+	OBS: Existe um "trade-off" quando se fala de escalabilidade, normalmente
+temos que optar por otimizar apenas Memória ou Tempo, dado que para diminuir 
+tempo de execução, as vezes precisamos de mais disponibilidade de recurso(memória).
+		
+- Time complexity
+Como encontrar BIG O de um algoritmo:
+	Regras:
+		- 1. Sempre o BIG O será o pior caso
+		- 2. Eliminar as constantes no algoritmo
+		- 3. Termos diferentes para os inputs
+			- Loops seguidos = O(a + b) = O(n)
+			- Loops aninhados = (a * b) = O(n^2)
+		- 4. Descartar os termos não dominantes
+			- Por exemplo O(n) ou O(n^2) = termo mais dominante
+		
+O que importa não é a inclinação da linha no gráfico, e sim 
+o tipo da linha.
+
+- Space complexity
+- O que causa Consumo de memória?
+	- Variáveis
+	- Estruturas de dados
+	- Chamadas de funções
+	- Alocação
