@@ -1,0 +1,21 @@
+References: https://www.bigocheatsheet.com
+
+- What is a data structure?
+ - Allows information to be stored
+ - Define how data is stored
+ - Define how data is organized
+ - Define how data is managment (Access, modified, deleted)
+ - Data structure can manipulated by algorithms
+
+- Operations type
+    - Insert -> add new item in data structure
+    - Delete -> remove existing item in data structure
+    - Traversal -> access exactly once each item
+    - Searching -> find item in data structure
+    - Sorting -> organize/to rank itens in data structure using a condition
+
+- Obs:
+ - Each data structure solves one or more problems
+ - We must to using data structure suitable for problem to solved
+ - Each data type has a number of bits associated with it, which need to be stored in the system
+ - 
