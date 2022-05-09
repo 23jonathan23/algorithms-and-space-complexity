@@ -1,0 +1,11 @@
+Arrays
+
+Good:
+- Fast lookups
+- Fast push/pop
+- Ordered (stored ordered in the memory)
+
+Bad:
+- Slow inserts (fix index for others elements in the array)
+- Slow deletes (fix index for others elements in the array)
+- Fixed size*(if using static array)
